@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Budgeting</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="income">Income</string>
+    <string name="expences">Expences</string>
+</resources>

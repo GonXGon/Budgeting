@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expense"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editExpense"
+        style="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeading"
+        android:hint="@string/expences"/>
+
+    <!-- Button to add income -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAddExpense"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Add Expenses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editExpense"/>
+
+    <!-- RecyclerView to display the list of incomes -->
+</androidx.constraintlayout.widget.ConstraintLayout>

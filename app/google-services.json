@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "518724561697",
+    "firebase_url": "https://budgeting-6ef65-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "budgeting-6ef65",
+    "storage_bucket": "budgeting-6ef65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518724561697:android:2ad8f44da0c85397bfec60",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVC2kfkRIIsN24MP25eC5Ius5h67M8ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518724561697:android:9e7eb45bc0f11d0fbfec60",
+        "android_client_info": {
+          "package_name": "com.example.budgeting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVC2kfkRIIsN24MP25eC5Ius5h67M8ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
