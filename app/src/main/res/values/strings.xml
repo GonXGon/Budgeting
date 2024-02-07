@@ -4,4 +4,11 @@
     <string name="name">Name</string>
     <string name="income">Income</string>
     <string name="expences">Expences</string>
+    <string name="email_address">Email-Address</string>
+    <string name="change_email">Change Email</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="user_profile">User Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="income_categories">
+        <item>Earned Income</item>
+        <item>Passive Income</item>
+        <item>Portfolio Income</item>
+        <item>Business Income</item>
+    </array>
+
+    <array name="expense_categories">
+        <item>Housing Expenses</item>
+        <item>Utilities</item>
+        <item>Transportation</item>
+        <item>Food and Groceries</item>
+        <item>Personal and Health Care</item>
+    </array>
+
+    <array name="time_frames">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annually</item>
+    </array>
+</resources>

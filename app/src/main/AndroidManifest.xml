@@ -23,10 +23,12 @@
         </activity>
         <activity android:name=".Login"/>
         <activity android:name=".Signup"/>
-        <activity android:name=".Total"/>
         <activity android:name=".Income"/>
         <activity android:name=".Expense"/>
         <activity android:name=".MainScreen"/>
+        <activity android:name=".IncomeCategory"/>
+        <activity android:name=".ExpenseCategory"/>
+        <activity android:name=".UserProfile"/>
 
     </application>
 

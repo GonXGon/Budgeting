@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_income"
-        android:title="Income"/>
+        android:title="Add Income"/>
     <item
         android:id="@+id/menu_expense"
-        android:title="Expense"/>
+        android:title="Add Expense"/>
     <item
         android:id="@+id/menu_user"
         android:title="User"/>

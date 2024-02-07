@@ -34,6 +34,31 @@
         android:layout_marginEnd="16dp"
         android:inputType="number"/>
 
+    <!-- Spinner for Categories -->
+    <Spinner
+        android:id="@+id/screen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editIncomeText" />
+
+    <Spinner
+        android:id="@+id/timeFrame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/screen" />
+
     <!-- Button to add income -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonAddIncome"
@@ -46,7 +71,6 @@
         android:text="Add Income"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editIncomeText"/>
+        app:layout_constraintTop_toBottomOf="@id/timeFrame"/>
 
-    <!-- RecyclerView to display the list of incomes -->
 </androidx.constraintlayout.widget.ConstraintLayout>
